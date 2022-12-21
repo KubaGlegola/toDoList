@@ -1,12 +1,13 @@
-import React, {Fragment} from 'react'
-import Task from '../task/Task'
+import React, {Fragment} from 'react';
 import classes from './AddNewTask.module.css';
+import {AiOutlinePlus} from 'react-icons/ai';
 
 const AddNewTask = () => {
   return (
-    <Fragment>
-    <Task className={classes.tasks} description="Create a new todo..."/>
-    </Fragment>
+    <div className={classes.addNewTask}>
+        <input type="text" placeholder='Create a new ToDo...'/>
+        <AiOutlinePlus className={classes.icon}/>
+    </div>
   )
 }
 
