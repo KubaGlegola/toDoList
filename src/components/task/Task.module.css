@@ -1,0 +1,32 @@
+.task{
+    display: flex;
+    color: white;
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    align-items: center;
+    background: #25273C;
+    cursor: pointer;
+}
+
+.task--completed{
+    text-decoration: line-through;
+}
+
+.circle{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: white solid 1px;    
+}
+
+.circle--completed{
+    font-size: 0.8rem;
+    vertical-align: center;
+    text-align: center;
+    background: linear-gradient( hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.description{
+}

@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    color: white;
+}
+
+.title{
+    letter-spacing: 1rem;
+}
+
+.themeSwitch{
+    font-size: 1.5rem;
+    cursor: pointer;
+}

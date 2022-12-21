@@ -1,0 +1,6 @@
+.card{
+    display: flex;
+    width: 40vw;
+    color: white;
+    margin: 0 auto;
+}

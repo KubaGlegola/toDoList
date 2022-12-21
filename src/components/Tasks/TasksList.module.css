@@ -1,0 +1,22 @@
+.tasksList{
+    display: flex;
+    flex-direction: column;
+    background: #25273C;
+    border-radius: 10px;
+    color: hsl(234, 11%, 52%);
+    overflow: hidden;
+}
+
+
+.footer{
+    display: flex;
+    font-size: 0.8rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.actions{
+    display: flex;
+    gap: 1rem;
+    cursor:pointer;
+}
