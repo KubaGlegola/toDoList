@@ -19,4 +19,11 @@
     color:white;
     width: 80%;
     background-color: transparent;
+    outline: none;
+}
+
+.addNewTask button{    
+    color: white;
+    background-color: transparent;
+    border: none;
 }
